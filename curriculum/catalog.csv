@@ -1,0 +1,29 @@
+id,title_en,title_fa,domain,level,prerequisites,estimated_minutes,status,primary_source
+ENV-AI-001,Safe AI learning environment,محیط امن یادگیری هوش مصنوعی,tools,foundation,None,60,Draft,Microsoft lesson 00
+FND-AI-101,Generative AI and LLM foundations,مبانی هوش مصنوعی مولد و مدل‌های زبانی,foundations,foundation,None,90,Draft,Microsoft lesson 01
+FND-MOD-110,Model families and model selection,خانواده‌های مدل و انتخاب مدل,models,foundation,FND-AI-101,90,Draft,Microsoft lesson 02
+ETH-RAI-101,Responsible AI in practice,هوش مصنوعی مسئولانه در عمل,ethics,foundation,FND-AI-101,90,Draft,Microsoft lesson 03
+GEN-PRM-101,Reliable prompt design,طراحی پرامپت قابل اعتماد,prompting,foundation,FND-AI-101,120,Ready,Microsoft lesson 04; IAU workshop 1 detail
+GEN-PRM-201,Advanced prompting and self-refinement,پرامپت پیشرفته و خوداصلاحی,prompting,intermediate,GEN-PRM-101,120,Draft,Microsoft lesson 05
+DEV-TXT-201,Text-generation applications,برنامه‌های تولید متن,development,intermediate,GEN-PRM-101; basic programming,150,Draft,Microsoft lesson 06
+DEV-CHAT-210,Conversational application design,طراحی برنامه‌های گفت‌وگومحور,development,intermediate,DEV-TXT-201,150,Draft,Microsoft lesson 07
+KNW-SEM-210,Embeddings and semantic search,بردارسازی و جست‌وجوی معنایی,knowledge,intermediate,FND-MOD-110; basic Python,150,Draft,Microsoft lesson 08
+MED-IMG-210,Image generation and editing,تولید و ویرایش تصویر,content,intermediate,GEN-PRM-101; ETH-RAI-101,120,Draft,Microsoft lesson 09
+AUT-LOW-210,Low-code AI workflows,گردش‌کارهای کم‌کد هوش مصنوعی,automation,intermediate,GEN-PRM-101,150,Draft,Microsoft lesson 10
+DEV-FNC-220,Tool use and function calling,کار با ابزار و فراخوانی تابع,development,intermediate,DEV-CHAT-210; structured data,150,Draft,Microsoft lesson 11
+UX-AI-201,Trustworthy AI user experience,تجربه کاربری قابل اعتماد هوش مصنوعی,ux,intermediate,ETH-RAI-101,120,Draft,Microsoft lesson 12
+SEC-AI-201,AI application security,امنیت برنامه‌های هوش مصنوعی,security,intermediate,ETH-RAI-101; basic security,120,Draft,Microsoft lesson 13
+OPS-LLM-220,LLM application lifecycle and evaluation,چرخه عمر و ارزیابی برنامه‌های مدل زبانی,operations,intermediate,DEV-TXT-201,120,Draft,Microsoft lesson 14
+KNW-RAG-220,Grounded generation with RAG,تولید مبتنی بر منبع با RAG,knowledge,intermediate,KNW-SEM-210; DEV-TXT-201,180,Draft,Microsoft lesson 15
+MOD-OPEN-210,Open and open-weight models,مدل‌های باز و وزن‌باز,models,intermediate,FND-MOD-110,90,Draft,Microsoft lesson 16
+AGT-AI-230,AI agents and controlled automation,عامل‌های هوشمند و خودکارسازی کنترل‌شده,agents,advanced,DEV-FNC-220; SEC-AI-201,180,Draft,Microsoft lesson 17
+MOD-FT-301,Fine-tuning decisions and workflow,تصمیم‌گیری و گردش‌کار تنظیم دقیق,models,advanced,FND-MOD-110; OPS-LLM-220,150,Draft,Microsoft lesson 18
+MOD-SLM-210,Small language models and local inference,مدل‌های زبانی کوچک و استنتاج محلی,models,intermediate,FND-MOD-110; basic Python,150,Draft,Microsoft lesson 19
+MOD-MIS-220,Building with Mistral models,ساخت با مدل‌های میسترال,models,intermediate,FND-MOD-110; basic Python,120,Draft,Microsoft lesson 20
+MOD-META-220,Building with Meta model families,ساخت با خانواده مدل‌های متا,models,intermediate,FND-MOD-110; basic Python,120,Draft,Microsoft lesson 21
+DAT-DOC-201,Document data extraction and verification,استخراج و راستی‌آزمایی داده اسناد,data,intermediate,GEN-PRM-101; spreadsheets,150,Draft,IAU proposal and workshop 1 detail
+ACC-PRM-101,Professional prompting for accountants,پرامپت حرفه‌ای برای حسابداران,accounting,foundation,GEN-PRM-101; basic accounting,120,Draft,IAU workshop 1
+ACC-DOC-201,Invoice extraction and reconciliation,استخراج و مغایرت‌گیری فاکتور,accounting,intermediate,ACC-PRM-101; spreadsheets,180,Ready,IAU proposal; workshop 1 detail; workshop 2
+ACC-OPS-210,Controlled accounting operations,عملیات حسابداری کنترل‌شده,accounting,intermediate,ACC-DOC-201,150,Draft,IAU workshop 2
+ACC-REP-220,AI-assisted financial analysis and reporting,تحلیل و گزارشگری مالی با کمک هوش مصنوعی,accounting,intermediate,ACC-DOC-201; financial ratios,180,Draft,IAU workshop 3
+ACC-AST-230,Safe accounting assistants,دستیارهای امن حسابداری,accounting,advanced,ACC-OPS-210; SEC-AI-201,180,Draft,IAU workshop 4
