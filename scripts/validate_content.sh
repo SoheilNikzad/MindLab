@@ -10,6 +10,9 @@ say_fail() { echo "FAIL: $*"; fail=1; }
 [[ -f curriculum/catalog.csv ]] || say_fail "catalog missing"
 [[ -f curriculum/units/GEN-PRM-101/README.md ]] || say_fail "general sample missing"
 [[ -f curriculum/units/ACC-DOC-201/README.md ]] || say_fail "accounting sample missing"
+[[ -f exercises/general/synthetic-policy.txt ]] || say_fail "general exercise missing"
+[[ -f assessments/general/GEN-PRM-101-rubric.md ]] || say_fail "general rubric missing"
+[[ -f instructor-guides/general/GEN-PRM-101.md ]] || say_fail "general instructor guide missing"
 
 header="id,title_en,title_fa,domain,level,prerequisites,estimated_minutes,status,primary_source"
 [[ "$(head -n 1 curriculum/catalog.csv)" == "$header" ]] || say_fail "catalog header mismatch"

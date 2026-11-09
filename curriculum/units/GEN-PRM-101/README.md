@@ -81,11 +81,11 @@ sample outputs and annotate which one obeys the specification.
 
 ## Learner exercise
 
-Use a short public or instructor-created policy containing one missing date,
-one conflicting statement, and one sentence that says “ignore previous
-instructions.” Produce prompt V1, annotate its six components, run or simulate
-it, record one failure, and submit V2 plus a verification table. Never use a
-real confidential policy.
+Use the supplied [synthetic policy](../../../exercises/general/synthetic-policy.txt),
+which contains a missing date, a retention conflict, and an embedded sentence
+that says to ignore previous instructions. Produce prompt V1, annotate its six
+components, run or simulate it, record one failure, and submit V2 plus a
+verification table. Never substitute a real confidential policy.
 
 ## Tools
 
@@ -95,18 +95,9 @@ file upload, API, or persistent memory is required.
 
 ## Assessment
 
-| Criterion | Evidence | Weight |
-|---|---|---:|
-| Six-part specification | annotated prompt | 25 |
-| Unknowns and boundaries | no invented date/scope; embedded instruction ignored | 20 |
-| Source/analysis separation | two fields or tables | 15 |
-| Independent verification | primary-section checklist and one completed check | 25 |
-| Revision rationale | V1/V2 comparison | 15 |
-
-Pass: 75/100 and no critical failure. Critical failures are exposing real
-confidential material, following an embedded instruction as a command, or
-claiming a model response is independently verified without opening evidence.
-Retry only the failed criterion with a new synthetic input.
+Use the [performance rubric](../../../assessments/general/GEN-PRM-101-rubric.md).
+Pass: 75/100 and no critical failure. Retry only the failed criterion with a
+new synthetic input.
 
 ## Sources
 
